@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "96187431399",
+    "project_id": "wahakul",
+    "storage_bucket": "wahakul.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96187431399:android:5d2ec94f5351724ccda542",
+        "android_client_info": {
+          "package_name": "com.example.wahakul"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOOot7EQNv-IrE4umZvQZY4uubIdtw7gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+
+        android:layout_marginTop="21dp"
+        android:src="@drawable/arrow">
+    </ImageView>
+    <ImageView
+        android:id="@+id/tabelkuning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/tabelkuning"
+        >
+    </ImageView>
+    <ImageView
+        android:id="@+id/logo_wakul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/logowakul">
+    </ImageView>
+    <ImageView
+        android:id="@+id/latarputih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="157dp"
+        android:src="@drawable/bawahan"
+        >
+    </ImageView>
+    <ImageView
+        android:id="@+id/textmasuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="173dp"
+        android:layout_marginTop="190dp"
+        android:src="@drawable/masuk"
+        >
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/latarputih"
+        android:layout_marginTop="-460dp"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <EditText
+            android:id="@+id/masukan_email"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="33dp"
+            android:background="@drawable/border"
+            android:hint="Masukan Username anda"
+
+            android:paddingLeft="10dp">
+
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/masukan_password"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:hint="Password"
+
+
+            android:paddingLeft="10dp">
+
+
+        </EditText>
+
+        <Button
+            android:id="@+id/button_masuk"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="280dp"
+            android:background="@drawable/buttoncolor"
+            android:text="Masuk"
+            android:textSize="18sp"
+
+
+            ></Button>
+
+        <TextView
+            android:id="@+id/buat_akun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="0dp"
+            android:text="Belum punya akun ? "
+            android:textColor="@color/blue"
+
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck">
+
+        </TextView>
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+
+
+
