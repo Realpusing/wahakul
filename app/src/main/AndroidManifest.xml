@@ -13,6 +13,27 @@
         android:theme="@style/Theme.Wahakul"
         tools:targetApi="31">
         <activity
+            android:name=".cekout"
+            android:exported="false" />
+        <activity
+            android:name=".snack"
+            android:exported="false" />
+        <activity
+            android:name=".minuman"
+            android:exported="false" />
+        <activity
+            android:name=".makanan"
+            android:exported="false" />
+        <activity
+            android:name=".ui.makanan"
+            android:exported="false" />
+        <activity
+            android:name=".masukpesan"
+            android:exported="false" />
+        <activity
+            android:name=".data.masukpesan"
+            android:exported="false" />
+        <activity
             android:name=".akun"
             android:exported="false" />
         <activity

@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:orientation="vertical"
-    android:layout_height="wrap_content"
+    android:layout_height="900dp"
     tools:context=".menu_utama">
 
     <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="900dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="500dp"
             android:orientation="vertical">
 
 
@@ -154,7 +154,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="4dp"
+                android:layout_marginLeft="12dp"
                 android:layout_marginTop="3dp"
                 android:src="@drawable/gambarbenner1"></ImageView>
 
@@ -568,59 +568,47 @@
 
 
                 </LinearLayout>
+
             </HorizontalScrollView>
-
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/latarpth"
-                android:layout_marginTop="10dp"
-                >
-            </ImageView>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/menu"
-                android:layout_marginLeft="7dp"
-                android:id="@+id/menu"
-                android:layout_marginTop="1003dp">
-
-            </ImageView>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/pesanan_saya"
-                android:id="@+id/pesanan"
-                android:layout_marginLeft="92dp"
-                android:layout_marginTop="-1134dp">
-
-            </ImageView>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/favorit"
-                android:id="@+id/fav"
-                android:layout_marginLeft="221dp"
-                android:layout_marginTop="-48dp">
-
+                android:id="@+id/home"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/home">
             </ImageView>
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/accont"
-                android:id="@+id/accont"
-                android:layout_marginLeft="280dp"
-                android:layout_marginTop="-31dp">
-
+                android:id="@+id/dompet"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="-30dp"
+                android:src="@drawable/wallet">
             </ImageView>
+
+            <ImageView
+                android:id="@+id/suka"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="-30dp"
+                android:src="@drawable/heart">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/profil"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="320dp"
+                android:layout_marginTop="-30dp"
+                android:src="@drawable/me">
+            </ImageView>
+
         </LinearLayout>
 
     </ScrollView>
-
-
-
-
 
 
 </RelativeLayout>

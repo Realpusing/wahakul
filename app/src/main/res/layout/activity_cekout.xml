@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cekout">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/backckout"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        ></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="12dp"
+        ></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konfirmasi Pesanan"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="20dp"
+        ></TextView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bgcekoutalamat"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="12dp"
+        ></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Warung Anto"
+        android:layout_marginTop="235dp"
+        android:textSize="17dp"
+        android:layout_marginLeft="12dp"
+        android:textStyle="italic"
+        ></TextView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/makanan"
+        android:layout_marginTop="255dp"
+        android:layout_marginLeft="12dp"
+
+        ></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayamn Utuh Lalapan"
+        android:textSize="18dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginLeft="130dp"
+
+        ></TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bgharga"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="160dp"
+
+        ></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/col"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="346dp"
+
+        ></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/plus"
+        android:layout_marginTop="288dp"
+        android:layout_marginLeft="346dp"
+        ></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/col"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="130dp"
+
+        ></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/minus"
+        android:layout_marginTop="288dp"
+        android:layout_marginLeft="130dp"
+
+        ></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/batasbg"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="10dp"
+        ></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/point"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="20dp"
+        ></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poins"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="60dp"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="400000"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="320dp"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Catatan"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="20dp"
+        ></TextView>
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="410dp"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Pesanan"
+        android:layout_marginTop="438dp"
+        android:layout_marginLeft="22dp"
+
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.69.999"
+        android:textColor="@color/orage"
+        android:layout_marginTop="438dp"
+        android:layout_marginLeft="302dp"
+        android:textStyle="bold"
+        ></TextView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/batasbg"
+        android:layout_marginTop="458dp"
+        android:layout_marginLeft="10dp"
+        ></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Metode Pembayaran"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="20dp"
+
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub Total Pengiriman                                                      69.999"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="20dp"
+
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biaya Pengiriman                                                             12.000"
+        android:layout_marginTop="510dp"
+        android:layout_marginLeft="20dp"
+
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biaya Lain-Lain                                                                  2.000"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="20dp"
+
+        ></TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/framecekout"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="10dp"
+        ></ImageView>
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cekout"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="265dp"
+        ></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orage"
+        android:text="Rp. 349.509"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="145dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CEKOUT"
+        android:layout_marginTop="600dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="280dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        ></TextView>
+
+
+
+
+</RelativeLayout>

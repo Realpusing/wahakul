@@ -5,12 +5,95 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".menupesanan">
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/layout"
-        >
+        android:src="@drawable/menukesukaan"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
 
+        ></ImageView>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:src="@drawable/menukesukaan"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="160dp"
+
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="190dp"
+        android:text="Makanan Telah diantar \n oleh kurir"
+        android:textSize="10dp"
+        ></TextView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/manuk"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status :"
+        android:textSize="16dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="140dp"
+
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sedang dalam Proses"
+        android:textSize="12dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="265dp"
+        android:textColor="@color/orage"
+
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="630dp"
+        android:src="@drawable/home">
     </ImageView>
+
+    <ImageView
+        android:id="@+id/dompet"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="630dp"
+        android:src="@drawable/wallet">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/suka"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="630dp"
+        android:src="@drawable/heart">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/profil"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="630dp"
+        android:src="@drawable/me">
+    </ImageView>
+
 </RelativeLayout>

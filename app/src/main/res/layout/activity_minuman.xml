@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".minuman">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gminum"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        >
+
+
+    </ImageView>
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrowy"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        >
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minuman"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        ></TextView>
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/jnipis"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="300dp"
+        ></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jeruk Nipis"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="75dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp. 5.950"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="75dp"
+        android:textSize="20dp"
+        android:textColor="@color/orage"
+
+        ></TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/plus"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="360dp"
+        ></ImageView>
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ortuminum"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="370dp"
+        ></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anggur Tipis-Tipis"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="75dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp. 76.950"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="75dp"
+        android:textSize="20dp"
+        android:textColor="@color/orage"
+
+        ></TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/plus"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="360dp"
+        ></ImageView>
+
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/framecekout"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="10dp"
+        ></ImageView>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginTop="595dp"
+
+        android:src="@drawable/cardshoping"></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cekout"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="265dp"
+        ></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orage"
+        android:text="Rp. 349.509"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="145dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CEKOUT"
+        android:layout_marginTop="600dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="280dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        ></TextView>
+
+</RelativeLayout>
